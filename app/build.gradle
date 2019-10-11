@@ -42,7 +42,7 @@ dependencies {
     implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation "androidx.appcompat:appcompat:$supportLibVersion"
     implementation "androidx.constraintlayout:constraintlayout:$constraintLayoutVersion"
-    implementation "com.google.android.material:material:$supportLibVersion"
+    implementation "com.google.android.material:material:1.1.0-beta01"
 
     // architecture components
     implementation "androidx.lifecycle:lifecycle-extensions:$archComponentsVersion"
@@ -56,7 +56,8 @@ dependencies {
     implementation "com.squareup.retrofit2:retrofit:$retrofitVersion"
     implementation"com.squareup.retrofit2:converter-gson:$retrofitVersion"
     implementation "com.squareup.retrofit2:retrofit-mock:$retrofitVersion"
-    implementation "com.squareup.okhttp3:logging-interceptor:$okhttpLoggingInterceptorVersion"
+    implementation "com.google.android.gms:play-services-auth:17.0.0"
+   // implementation "com.squareup.okhttp3:logging-interceptor:$okhttpLoggingInterceptorVersion"
 
     // testing
     testImplementation "junit:junit:$junitVersion"
